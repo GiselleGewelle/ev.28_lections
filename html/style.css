@@ -1,0 +1,48 @@
+h2 {
+    border:dotted 5px yellow
+}
+*{
+    color:brown
+}
+.super{
+    color:blue
+}
+#supper_id {
+    background: pink;
+}
+.span{
+    font-weight: 800;
+    color:blue;
+}
+#test{
+    background-color: yellowgreen;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.parent{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+div{
+    cursor: pointer;
+}
+div:hover{
+    background: yellow;
+    margin:20px;
+}
+a:active{
+    color:red;
+}
+a:visited{
+    color:green;
+}

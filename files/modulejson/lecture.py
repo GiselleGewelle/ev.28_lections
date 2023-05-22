@@ -76,11 +76,11 @@
 #     print(dictt,type(dictt))
 
 #-----------------------------------------------------
-from urllib.request import urlopen
-import json
-import pprint as pp
-url="https://randomuser.me/api/"
-json_data=urlopen(url)
-# print(json_data,dir(json_data))
-dictt=json.load(json_data)
-pp.pprint(dictt)
+# from urllib.request import urlopen
+# import json
+# import pprint as pp
+# url="https://randomuser.me/api/"
+# json_data=urlopen(url)
+# # print(json_data,dir(json_data))
+# dictt=json.load(json_data)
+# pp.pprint(dictt)
